@@ -1,7 +1,7 @@
 import string
 
 class HangmanAI:
-    def __init__(self, wordlist_file="words.txt"):
+    def __init__(self, wordlist_file="airlines_words.txt"):
         with open(wordlist_file, "r") as f:
             self.words = [w.strip().lower() for w in f if w.strip()]
 
