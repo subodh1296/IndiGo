@@ -1,2 +1,2 @@
-# No external dependencers required
+# No external dependencies required
 # We require only python built-in libraries
